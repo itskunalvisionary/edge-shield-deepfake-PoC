@@ -1,0 +1,186 @@
+[
+  {
+    "timestamp": "2025-12-28 13:16:39",
+    "video_score": 0.5,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time_sec": 9.13,
+    "audio_time_sec": 0.38
+  },
+  {
+    "timestamp": "2025-12-28 13:17:03",
+    "video_score": 0.5,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time_sec": 10.83,
+    "audio_time_sec": 0.38
+  },
+  {
+    "timestamp": "2025-12-28 13:20:57",
+    "video_score": 0.5,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time_sec": 13.92,
+    "audio_time_sec": 0.36
+  },
+  {
+    "timestamp": "2025-12-28 13:30:06",
+    "video_score": 0.25,
+    "audio_score": 0.5,
+    "label": "REAL",
+    "risk": "LOW",
+    "video_time_sec": 9.4,
+    "audio_time_sec": 0.42
+  },
+  {
+    "timestamp": "2025-12-28 13:31:06",
+    "video_score": 0.25,
+    "audio_score": 0.5,
+    "label": "REAL",
+    "risk": "LOW",
+    "video_time_sec": 11.02,
+    "audio_time_sec": 0.41
+  },
+  {
+    "timestamp": "2025-12-28 13:33:18",
+    "video_score": 0.25,
+    "audio_score": 0.5,
+    "label": "REAL",
+    "risk": "LOW",
+    "video_time_sec": 4.89,
+    "audio_time_sec": 0.41
+  },
+  {
+    "timestamp": "2025-12-28 13:34:49",
+    "video_score": 0.25,
+    "audio_score": 0.5,
+    "label": "REAL",
+    "risk": "LOW",
+    "video_time_sec": 4.5,
+    "audio_time_sec": 0.41
+  },
+  {
+    "timestamp": "2025-12-28 13:44:37",
+    "video_score": 0.25,
+    "audio_score": 0.5,
+    "label": "REAL",
+    "risk": "LOW",
+    "video_time_sec": 14.5,
+    "audio_time_sec": 0.42
+  },
+  {
+    "timestamp": "2025-12-28 13:45:09",
+    "video_score": 0.25,
+    "audio_score": 0.5,
+    "label": "REAL",
+    "risk": "LOW",
+    "video_time_sec": 4.65,
+    "audio_time_sec": 0.38
+  },
+  {
+    "timestamp": "2025-12-28 13:45:29",
+    "video_score": 0.25,
+    "audio_score": 0.5,
+    "label": "REAL",
+    "risk": "LOW",
+    "video_time_sec": 4.58,
+    "audio_time_sec": 0.39
+  },
+  {
+    "timestamp": "2025-12-28 14:55:34",
+    "video_score": 0.25,
+    "audio_score": 0.5,
+    "label": "REAL",
+    "risk": "LOW",
+    "video_time_sec": 20.58,
+    "audio_time_sec": 0.57
+  },
+  {
+    "timestamp": "2025-12-28 14:59:58",
+    "video_score": 0.576,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time_sec": 59.52,
+    "audio_time_sec": 0.44
+  },
+  {
+    "timestamp": "2025-12-28 15:00:27",
+    "video_score": 0.513,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time_sec": 10.66,
+    "audio_time_sec": 0.46
+  },
+  {
+    "timestamp": "2025-12-28 15:01:33",
+    "video_score": 0.5,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time_sec": 4.91,
+    "audio_time_sec": 0.34
+  },
+  {
+    "timestamp": "2025-12-28 15:28:23",
+    "file": "20251228_1252_01kcs7eckjf819htdscx8t26a4.mp4",
+    "mode": "Video + Audio",
+    "video_score": 0.5575120069763877,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time": 5.94,
+    "audio_time": 0.54
+  },
+  {
+    "timestamp": "2025-12-28 15:28:45",
+    "file": "20251228_1252_01kcs7eckjf819htdscx8t26a4.mp4",
+    "mode": "Video + Audio",
+    "video_score": 0.5419777875596826,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time": 4.81,
+    "audio_time": 0.38
+  },
+  {
+    "timestamp": "2025-12-28 15:30:27",
+    "video_score": 0.552,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time_sec": 7.18,
+    "audio_time_sec": 0.43
+  },
+  {
+    "timestamp": "2025-12-28 15:30:46",
+    "video_score": 0.483,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time_sec": 4.64,
+    "audio_time_sec": 0.41
+  },
+  {
+    "timestamp": "2025-12-28 15:48:30",
+    "video_score": 0.526,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time_sec": 13.9,
+    "audio_time_sec": 0.41
+  },
+  {
+    "timestamp": "2025-12-28 15:48:45",
+    "video_score": 0.426,
+    "audio_score": 0.5,
+    "label": "INCONCLUSIVE",
+    "risk": "MEDIUM",
+    "video_time_sec": 4.4,
+    "audio_time_sec": 0.41
+  }
+]

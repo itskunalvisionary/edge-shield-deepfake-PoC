@@ -1,0 +1,16 @@
+# Core language & numerics
+numpy
+
+# Computer Vision
+opencv-python
+
+# Deep Learning (CPU)
+torch
+torchvision
+torchaudio
+
+# Audio / Video processing
+moviepy
+
+# Web UI
+streamlit
