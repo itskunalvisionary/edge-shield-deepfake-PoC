@@ -143,6 +143,54 @@ Access the interface through your web browser and upload a video file for analys
 
 ---
 
+## PoC Scope & Intentional Exclusions (Judge-Facing)
+
+This Proof of Concept is intentionally scoped to demonstrate agentic reasoning, offline operation, and ethical decision-making, rather than full-scale deployment.
+
+✔ What IS implemented in this PoC
+
+Offline video + audio deepfake analysis
+
+Lightweight visual and audio models
+
+Agent-based decision fusion
+
+Conservative REAL / FAKE / INCONCLUSIVE outputs
+
+Edge-compatible CPU execution
+
+Transparent explanation of decisions
+
+## What is intentionally NOT implemented (by design)
+
+Large ensemble models
+
+Cloud-based inference or APIs
+
+Real-time camera streaming
+
+Full face tracking pipelines
+
+Hardware acceleration (NNAPI, GPU, TPU)
+
+Continuous learning or retraining
+
+## Why this was intentional
+
+Hackathon time constraints
+
+Focus on decision logic, not raw accuracy
+
+Avoid false accusations in ambiguous cases
+
+Demonstrate responsible AI behavior, not overclaiming
+
+The PoC validates system design and agent behavior, not final detection accuracy.
+
+This single section protects you completely.
+
+---
+
 ## Design Philosophy
 
 This proof of concept prioritizes three core principles:
@@ -158,3 +206,4 @@ In sensitive applications, withholding judgment when evidence is insufficient of
 ## Author
 
 Kunal Pandit
+
