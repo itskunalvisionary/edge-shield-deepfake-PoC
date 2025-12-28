@@ -143,7 +143,7 @@ Access the interface through your web browser and upload a video file for analys
 
 ---
 
-## PoC Scope & Intentional Exclusions (Judge-Facing)
+## PoC Scope & Intentional Exclusions
 
 This Proof of Concept is intentionally scoped to demonstrate agentic reasoning, offline operation, and ethical decision-making, rather than full-scale deployment.
 
@@ -155,13 +155,13 @@ Lightweight visual and audio models
 
 Agent-based decision fusion
 
-Conservative REAL / FAKE / INCONCLUSIVE outputs
+Conservative REAL / FAKE / INCONCLUSIVE Results
 
 Edge-compatible CPU execution
 
 Transparent explanation of decisions
 
-## What is intentionally NOT implemented (by design)
+## What is intentionally NOT implemented
 
 Large ensemble models
 
@@ -206,4 +206,5 @@ In sensitive applications, withholding judgment when evidence is insufficient of
 ## Author
 
 Kunal Pandit
+
 
