@@ -115,13 +115,21 @@ These characteristics make the system appropriate for:
 ## Project Organization
 
 agent/        Central agent logic for multimodal decision-making (audio + video fusion)
+
 assets/       Static offline resources (CV models and sample test media)
+
 config/       Global configuration, thresholds, and system constants
+
 models/       Neural network architectures and pretrained weight handlers
+
 pipelines/    End-to-end audio and video processing workflows
+
 utils/        Supporting utilities (preprocessing, logging, performance tracking)
+
 outputs/      Forensic logs and temporary runtime artifacts
+
 app.py        Streamlit web interface for offline PoC demonstration
+
 app_cloud.py  Streamlit web interface for online / cloud deployment
 
 ---
@@ -209,6 +217,7 @@ In sensitive applications, withholding judgment when evidence is insufficient of
 ## Author
 
 Kunal Pandit
+
 
 
 
