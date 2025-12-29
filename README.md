@@ -114,14 +114,51 @@ These characteristics make the system appropriate for:
 
 ## Project Organization
 
-```
-agent/        Decision logic and classification rules
-models/       Neural network architectures
-pipelines/    Video and audio processing workflows
-config/       Configuration parameters and thresholds
-outputs/      Analysis logs and temporary files
-app.py        Streamlit web interface
-```
+AUTHENTICITY_ENGINE/
+│
+├── agent/
+│   └── decision_agent.py        # Central agent logic for multimodal decision-making
+│                                 # (video + audio confidence fusion & final verdict)
+│
+├── assets/
+│   ├── haarcascades/             # Classical CV models for face detection (offline)
+│   │   └── haarcascade_frontalface_default.xml
+│   └── sample_inputs/            # Sample media for testing and demonstration
+│       └── ai.video_by_sora.mp4
+│
+├── config/
+│   └── settings.py               # Global configuration, thresholds, and system constants
+│
+├── models/
+│   ├── weights/                  # Pretrained / placeholder model weights (if any)
+│   ├── audio_model.py            # Audio deepfake detection model wrapper
+│   ├── rawnet2_arch.py           # RawNet2 architecture (audio authenticity analysis)
+│   ├── video_model.py            # Video deepfake detection model wrapper
+│   ├── xception_arch.py          # Xception-based CNN architecture
+│   └── xception_ffpp.py          # Xception variant tuned for face-forensics style data
+│
+├── pipelines/
+│   ├── audio_pipeline.py         # End-to-end audio processing pipeline
+│   │                               # (extraction → preprocessing → inference)
+│   └── video_pipeline.py         # End-to-end video processing pipeline
+│                                   # (frame extraction → face detection → inference)
+│
+├── utils/
+│   ├── audio_utils.py             # Audio preprocessing utilities
+│   ├── video_utils.py             # Video/frame preprocessing utilities
+│   ├── logger.py                  # Structured forensic logging system
+│   └── timer.py                   # Performance and latency measurement helpers
+│
+├── outputs/
+│   ├── logs/
+│   │   └── forensic_log.json      # Machine-readable forensic analysis logs
+│   └── temp/                      # Temporary runtime files
+│       ├── input_audio.wav
+│       └── input_video.mp4
+│
+└──  app.py                         # Streamlit-based UI for offline PoC demonstration
+
+
 
 ---
 
@@ -206,5 +243,6 @@ In sensitive applications, withholding judgment when evidence is insufficient of
 ## Author
 
 Kunal Pandit
+
 
 
