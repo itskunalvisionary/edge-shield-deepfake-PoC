@@ -168,37 +168,7 @@ This demo focuses on **agent behavior, decision logic, and explainability**, not
 
 ---
 
-
-**What This Project Is (And Isn't)**
-
-**What We Built**
-
-This is a Proof of Concept—think of it as a working prototype, not a polished product. We're showing *how* an AI system should think through deepfake detection, especially when things get murky.
-
-The focus? Smart decision-making and being upfront about uncertainty—not just chasing perfect scores.
-
-**What's Inside**
-
-- Analyzes video and audio for deepfake signs (works offline)
-- Lightweight models that could run on your phone or laptop
-- An AI "agent" that weighs different clues together
-- Three honest answers: REAL, FAKE, or INCONCLUSIVE
-- Runs on regular CPUs (no fancy hardware needed)
-- Explains its reasoning in plain language
-
-**What We Left Out (On Purpose)**
-
-- Heavy-duty cloud models or online services
-- Live camera/streaming analysis
-- Face tracking bells and whistles
-- GPU acceleration
-- Self-learning features
-
-**Why These Trade-offs?**
-
-Simple: hackathon reality. We had limited time and chose to nail the *thinking process* over raw performance numbers. More importantly, we wanted to show responsible AI—one that admits "I'm not sure" rather than confidently getting it wrong.
-
-**The Big Idea**
+**The Idea**
 
 When the system says INCONCLUSIVE, that's not a bug—it's a feature. In the real world, especially with something as serious as deepfakes, sometimes the right answer is "I need more evidence." That's honest, responsible AI.
 
@@ -217,6 +187,7 @@ In sensitive applications, withholding judgment when evidence is insufficient of
 ## Author
 
 Kunal Pandit
+
 
 
 
