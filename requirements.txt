@@ -1,8 +1,12 @@
 # Core language & numerics
 numpy
 
+# Utilities
+tqdm
+
 # Computer Vision
 opencv-python
+timm
 
 # Deep Learning (CPU)
 torch
