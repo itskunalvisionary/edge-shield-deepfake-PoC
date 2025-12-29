@@ -14,7 +14,7 @@ This project represents a proof of concept demonstration and is not intended as 
 
 ## Problem Statement
 
-Manipulated video content poses significant challenges in modern digital environments:
+**Agentic AI Problem Statement: Deepfake Detection & Authenticity Verification**
 
 - Misinformation can spread rapidly through fabricated media
 - False evidence may be created to misrepresent events or individuals
@@ -125,6 +125,21 @@ app_cloud.py  Streamlit web interface for online / cloud deployment
 
 ---
 
+## Demo Access
+
+This repository represents the **primary Proof of Concept (PoC)** for EDGE-SHIELD.
+
+For convenience and judge review, a **lightweight online demo interface** is also provided.  
+This demo focuses on **agent behavior, decision logic, and explainability**, not raw model accuracy.
+
+🔗 **Online Demo Url:**  
+<https://edge-shield-deepfake-poc-65jrmclyc8a3eoruzaxkqp.streamlit.app/>
+
+⚠️ **Important Notes**
+- The demo uses the same agent logic as the offline PoC
+- Heavy AI models are designed to run **offline on edge devices**
+
+
 ## Installation and Usage
 
 Install required dependencies:
@@ -206,7 +221,4 @@ In sensitive applications, withholding judgment when evidence is insufficient of
 ## Author
 
 Kunal Pandit
-
-
-
 
