@@ -125,20 +125,6 @@ app_cloud.py  Streamlit web interface for online / cloud deployment
 
 ---
 
-## Demo Access
-
-This repository represents the **primary Proof of Concept (PoC)** for EDGE-SHIELD.
-
-For convenience and judge review, a **lightweight online demo interface** is also provided.  
-This demo focuses on **agent behavior, decision logic, and explainability**, not raw model accuracy.
-
-🔗 **Online Demo Url:**  
-<https://edge-shield-deepfake-poc-65jrmclyc8a3eoruzaxkqp.streamlit.app/>
-
-⚠️ **Important Notes**
-- The demo uses the same agent logic as the offline PoC
-- Heavy AI models are designed to run **offline on edge devices**
-
 
 ## Installation and Usage
 
@@ -158,57 +144,59 @@ Access the interface through your web browser and upload a video file for analys
 
 ---
 
-## PoC Scope & Intentional Exclusions
+## Demo Access
 
-This Proof of Concept is intentionally scoped to demonstrate agentic reasoning, offline operation, and ethical decision-making, rather than full-scale deployment.
+This repository represents the **primary Proof of Concept (PoC)** for EDGE-SHIELD.
 
-✔ What IS implemented in this PoC
+For convenience and judge review, a **lightweight online demo interface** is also provided.  
+This demo focuses on **agent behavior, decision logic, and explainability**, not raw model accuracy.
 
-Offline video + audio deepfake analysis
+🔗 **Online Demo Url:**  
+<https://edge-shield-deepfake-poc-65jrmclyc8a3eoruzaxkqp.streamlit.app/>
 
-Lightweight visual and audio models
-
-Agent-based decision fusion
-
-Conservative REAL / FAKE / INCONCLUSIVE Results
-
-Edge-compatible CPU execution
-
-Transparent explanation of decisions
-
-## What is intentionally NOT implemented
-
-Large ensemble models
-
-Cloud-based inference or APIs
-
-Real-time camera streaming
-
-Full face tracking pipelines
-
-Hardware acceleration (NNAPI, GPU, TPU)
-
-Continuous learning or retraining
-
-## Why this was intentional
-
-Hackathon time constraints
-
-Focus on decision logic, not raw accuracy
-
-Avoid false accusations in ambiguous cases
-
-Demonstrate responsible AI behavior, not overclaiming
-
-The PoC validates system design and agent behavior, not final detection accuracy.
-
-This single section protects you completely.
+⚠️ **Important Notes**
+- The demo uses the same agent logic as the offline PoC
+- Heavy AI models are designed to run **offline on edge devices**
 
 ---
 
-## Design Philosophy
 
-This proof of concept prioritizes three core principles:
+**What This Project Is (And Isn't)**
+
+**What We Built**
+
+This is a Proof of Concept—think of it as a working prototype, not a polished product. We're showing *how* an AI system should think through deepfake detection, especially when things get murky.
+
+The focus? Smart decision-making and being upfront about uncertainty—not just chasing perfect scores.
+
+**What's Inside**
+
+- Analyzes video and audio for deepfake signs (works offline)
+- Lightweight models that could run on your phone or laptop
+- An AI "agent" that weighs different clues together
+- Three honest answers: REAL, FAKE, or INCONCLUSIVE
+- Runs on regular CPUs (no fancy hardware needed)
+- Explains its reasoning in plain language
+
+**What We Left Out (On Purpose)**
+
+- Heavy-duty cloud models or online services
+- Live camera/streaming analysis
+- Face tracking bells and whistles
+- GPU acceleration
+- Self-learning features
+
+**Why These Trade-offs?**
+
+Simple: hackathon reality. We had limited time and chose to nail the *thinking process* over raw performance numbers. More importantly, we wanted to show responsible AI—one that admits "I'm not sure" rather than confidently getting it wrong.
+
+**The Big Idea**
+
+When the system says INCONCLUSIVE, that's not a bug—it's a feature. In the real world, especially with something as serious as deepfakes, sometimes the right answer is "I need more evidence." That's honest, responsible AI.
+
+---
+
+## This proof of concept prioritizes three core principles:
 
 - **Trustworthiness**: Classifications are based on verifiable evidence
 - **Transparency**: The system provides clear explanations for its conclusions
@@ -221,4 +209,5 @@ In sensitive applications, withholding judgment when evidence is insufficient of
 ## Author
 
 Kunal Pandit
+
 
