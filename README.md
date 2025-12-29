@@ -113,52 +113,15 @@ These characteristics make the system appropriate for:
 ---
 
 ## Project Organization
-
-AUTHENTICITY_ENGINE/
-│
-├── agent/
-│   └── decision_agent.py        # Central agent logic for multimodal decision-making
-│                                 # (video + audio confidence fusion & final verdict)
-│
-├── assets/
-│   ├── haarcascades/             # Classical CV models for face detection (offline)
-│   │   └── haarcascade_frontalface_default.xml
-│   └── sample_inputs/            # Sample media for testing and demonstration
-│       └── ai.video_by_sora.mp4
-│
-├── config/
-│   └── settings.py               # Global configuration, thresholds, and system constants
-│
-├── models/
-│   ├── weights/                  # Pretrained / placeholder model weights (if any)
-│   ├── audio_model.py            # Audio deepfake detection model wrapper
-│   ├── rawnet2_arch.py           # RawNet2 architecture (audio authenticity analysis)
-│   ├── video_model.py            # Video deepfake detection model wrapper
-│   ├── xception_arch.py          # Xception-based CNN architecture
-│   └── xception_ffpp.py          # Xception variant tuned for face-forensics style data
-│
-├── pipelines/
-│   ├── audio_pipeline.py         # End-to-end audio processing pipeline
-│   │                               # (extraction → preprocessing → inference)
-│   └── video_pipeline.py         # End-to-end video processing pipeline
-│                                   # (frame extraction → face detection → inference)
-│
-├── utils/
-│   ├── audio_utils.py             # Audio preprocessing utilities
-│   ├── video_utils.py             # Video/frame preprocessing utilities
-│   ├── logger.py                  # Structured forensic logging system
-│   └── timer.py                   # Performance and latency measurement helpers
-│
-├── outputs/
-│   ├── logs/
-│   │   └── forensic_log.json      # Machine-readable forensic analysis logs
-│   └── temp/                      # Temporary runtime files
-│       ├── input_audio.wav
-│       └── input_video.mp4
-│
-└──  app.py                         # Streamlit-based UI for offline PoC demonstration
-
-
+agent/        Central agent logic for multimodal decision-making (audio + video fusion)
+assets/       Static offline resources (CV models and sample test media)
+config/       Global configuration, thresholds, and system constants
+models/       Neural network architectures and pretrained weight handlers
+pipelines/    End-to-end audio and video processing workflows
+utils/        Supporting utilities (preprocessing, logging, performance tracking)
+outputs/      Forensic logs and temporary runtime artifacts
+app.py        Streamlit web interface for offline PoC demonstration
+app_cloud.py  Streamlit web interface for online / cloud deployment
 
 ---
 
@@ -243,6 +206,7 @@ In sensitive applications, withholding judgment when evidence is insufficient of
 ## Author
 
 Kunal Pandit
+
 
 
 
